@@ -22,14 +22,14 @@ justify-content: space-between;
 height: 100%;
 }
 
-/* .header {
-margin-top: 34px ;
-margin-bottom: 58px;
-display: flex;
-position: absolute;
-top: 0;
-left: 0; */
-}
+/*!* .header {*/
+/*margin-top: 34px ;*/
+/*margin-bottom: 58px;*/
+/*display: flex;*/
+/*position: absolute;*/
+/*top: 0;*/
+/*left: 0; *!*/
+/*}*/
  img{
     ; 
 } 
@@ -65,7 +65,7 @@ color: #FF6B0A ;
 margin-bottom: 48px;
 }
 .banderogus-title {
-color: #000000
+color: #000000;
 font-weight: 600;
 font-size: 64px;
 line-height: 72px;
@@ -83,7 +83,7 @@ background: #FF6B0A;
 border-radius: 8px;
 padding: 12px 24px;
 font-weight: 400;
-font-size: 16px;*/
+font-size: 16px;
 line-height: 24px;
 color: #FFFAFA ;
 cursor: pointer;
@@ -180,13 +180,16 @@ width: 886px;
     transition: all 0.3s ease-in-out;
 }
 .modal-form {
-    background: #FFFCFC;
-    padding: 32px 81px 47px 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
 
+
+}
+.modal-form-container {
+    background: #FFFCFC;
+    padding: 32px 81px 47px 80px;
+    position: relative;
 }
 .modal-form-title {
     font-weight: 600;
@@ -213,7 +216,7 @@ width: 886px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 16px
+    margin-bottom: 16px;
     color: #000000
 }
 .modal-field-input {
