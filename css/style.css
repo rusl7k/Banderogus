@@ -83,7 +83,7 @@ background: #FF6B0A;
 border-radius: 8px;
 padding: 12px 24px;
 font-weight: 400;
-font-size: 16px;
+font-size: 16px;*/
 line-height: 24px;
 color: #FFFAFA ;
 cursor: pointer;
@@ -163,3 +163,97 @@ text-align: center;
 color: #2A2934;
 width: 886px;
 }
+.modal-bgd {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(52 41 52 / 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: all 0.3s ease-in-out;
+}
+.modal-form {
+    background: #FFFCFC;
+    padding: 32px 81px 47px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.modal-form-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    margin: 32px 0 12px 0;
+}
+.modal-form-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.modal-form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+}
+.modal-field-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px
+    color: #000000
+}
+.modal-field-input {
+    background: #FFFCFC;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 4px 8px;
+}
+.modal-form-btn {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFAFA ;
+    cursor: pointer;
+    border: 0;
+    margin-top: 24px;
+}
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top:20px;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    border: 0;
+    background: none;
+
+}
+.modal-description{
+    margin-bottom: 0;
+}
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
+
